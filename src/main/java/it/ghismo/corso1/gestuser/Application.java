@@ -1,4 +1,4 @@
-package com.xantrix.webapp;
+package it.ghismo.corso1.gestuser;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

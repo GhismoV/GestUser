@@ -4,17 +4,34 @@
 
 server:
   port: 8019
+  
+  
+logging:
+  level:
+    it.ghismo: DEBUG
+      
+      
 spring:
   application:
     name: GestUser
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
+      
+
+
 #==========================================================
 #= PARAMETRI DB MONGODB 
 #==========================================================
   data:
     mongodb:
+      #host: localhost
+      host: 192.168.1.9
+      port: 37017
       authentication-database: admin
       database: ms-users
-      host: localhost
-      password: 123Stella
-      port: 37017
-      username: nicola
+      username: ghismo
+      password: banana
+      auto-index-creation: true

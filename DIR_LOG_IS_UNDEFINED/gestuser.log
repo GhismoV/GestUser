@@ -1,0 +1,656 @@
+2022-10-25 20:00:33.897 [http-nio-8019-exec-2]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-25 20:00:33.901 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2022-10-25 20:00:33.904 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+2022-10-25 20:00:33.921 [http-nio-8019-exec-2] DEBUG i.g.c.g.controllers.UtentiController.findAllUsers - --- Servizio Cerca Tutti gli Utenti ---
+2022-10-25 20:00:43.937 [File Watcher]  INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-25 20:00:44.420 [Thread-15]  INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+2022-10-25 20:00:44.422 [Thread-15]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-25 20:00:44.427 [Thread-15]  WARN o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [logback-3] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.11/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.11/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.11/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.11/java.lang.Thread.run(Thread.java:834)
+2022-10-25 20:00:44.428 [Thread-15]  WARN o.a.c.loader.WebappClassLoaderBase.log - The web application [ROOT] appears to have started a thread named [logback-4] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@11.0.11/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@11.0.11/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+ java.base@11.0.11/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2081)
+ java.base@11.0.11/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@11.0.11/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1054)
+ java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1114)
+ java.base@11.0.11/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+ java.base@11.0.11/java.lang.Thread.run(Thread.java:834)
+2022-10-25 20:00:44.563 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarting - Starting Application using Java 11.0.11 on PC-Giuseppe with PID 9708 (C:\GitLocalRepo\GestUser\target\classes started by ghism_000 in C:\GitLocalRepo\GestUser)
+2022-10-25 20:00:44.563 [restartedMain] DEBUG i.ghismo.corso1.gestuser.Application.logStarting - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-25 20:00:44.563 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-10-25 20:00:44.745 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-25 20:00:44.756 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 1 MongoDB repository interfaces.
+2022-10-25 20:00:44.860 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8019 (http)
+2022-10-25 20:00:44.861 [restartedMain]  INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2022-10-25 20:00:44.862 [restartedMain]  INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-25 20:00:44.876 [restartedMain]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2022-10-25 20:00:44.876 [restartedMain]  INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 310 ms
+2022-10-25 20:00:44.920 [restartedMain]  INFO org.mongodb.driver.client.info - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 8.1", "architecture": "amd64", "version": "6.3"}, "platform": "Java/Oracle Corporation/11.0.11+9-LTS-194"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='ghismo', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3cfa93a7]}, clusterSettings={hosts=[192.168.1.9:37017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-25 20:00:44.937 [cluster-rtt-ClusterId{value='6358244c3007846be472c838', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:14, serverValue:117}] to 192.168.1.9:37017
+2022-10-25 20:00:44.940 [cluster-ClusterId{value='6358244c3007846be472c838', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:13, serverValue:118}] to 192.168.1.9:37017
+2022-10-25 20:00:44.942 [cluster-ClusterId{value='6358244c3007846be472c838', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.9:37017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=5772665}
+2022-10-25 20:00:44.958 [restartedMain]  INFO o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2022-10-25 20:00:45.067 [restartedMain]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:15, serverValue:119}] to 192.168.1.9:37017
+2022-10-25 20:00:45.516 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4c6560f9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@9b63779, org.springframework.security.web.context.SecurityContextPersistenceFilter@70d8ddff, org.springframework.security.web.header.HeaderWriterFilter@442f7ca7, org.springframework.web.filter.CorsFilter@8a57ace, org.springframework.security.web.authentication.logout.LogoutFilter@69262bae, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3ab1cc4a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42d7c7ac, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d225115, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cc2240c, org.springframework.security.web.session.SessionManagementFilter@62781bfa, org.springframework.security.web.access.ExceptionTranslationFilter@27b2a1e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@20a436cf]
+2022-10-25 20:00:45.522 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:00:45.523 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/css/**']
+2022-10-25 20:00:45.523 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:00:45.523 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/js/**']
+2022-10-25 20:00:45.523 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:00:45.524 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/img/**']
+2022-10-25 20:00:45.524 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/lib/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:00:45.524 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/lib/**']
+2022-10-25 20:00:45.525 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:00:45.525 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/favicon.ico']
+2022-10-25 20:00:45.526 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:00:45.526 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/**', OPTIONS]
+2022-10-25 20:00:45.642 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8019 (http) with context path ''
+2022-10-25 20:00:45.658 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarted - Started Application in 1.14 seconds (JVM running for 1340.26)
+2022-10-25 20:00:45.666 [restartedMain]  INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2022-10-25 20:00:51.198 [http-nio-8019-exec-2]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-25 20:00:51.199 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2022-10-25 20:00:51.201 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+2022-10-25 20:00:51.206 [http-nio-8019-exec-2]  WARN i.g.c.g.security.AuthEntryPoint.commence - Errore di sicurezza: Full authentication is required to access this resource
+2022-10-25 20:01:18.387 [File Watcher]  INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-25 20:01:18.874 [Thread-19]  INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+2022-10-25 20:01:18.876 [Thread-19]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-25 20:01:19.000 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarting - Starting Application using Java 11.0.11 on PC-Giuseppe with PID 9708 (C:\GitLocalRepo\GestUser\target\classes started by ghism_000 in C:\GitLocalRepo\GestUser)
+2022-10-25 20:01:19.000 [restartedMain] DEBUG i.ghismo.corso1.gestuser.Application.logStarting - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-25 20:01:19.000 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-10-25 20:01:19.181 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-25 20:01:19.191 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 1 MongoDB repository interfaces.
+2022-10-25 20:01:19.293 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8019 (http)
+2022-10-25 20:01:19.294 [restartedMain]  INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2022-10-25 20:01:19.294 [restartedMain]  INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-25 20:01:19.308 [restartedMain]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2022-10-25 20:01:19.309 [restartedMain]  INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 305 ms
+2022-10-25 20:01:19.350 [restartedMain]  INFO org.mongodb.driver.client.info - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 8.1", "architecture": "amd64", "version": "6.3"}, "platform": "Java/Oracle Corporation/11.0.11+9-LTS-194"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='ghismo', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3cfa93a7]}, clusterSettings={hosts=[192.168.1.9:37017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-25 20:01:19.368 [cluster-ClusterId{value='6358246f3007846be472c839', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:17, serverValue:121}] to 192.168.1.9:37017
+2022-10-25 20:01:19.368 [cluster-rtt-ClusterId{value='6358246f3007846be472c839', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:16, serverValue:120}] to 192.168.1.9:37017
+2022-10-25 20:01:19.373 [cluster-ClusterId{value='6358246f3007846be472c839', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.9:37017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=6501388}
+2022-10-25 20:01:19.384 [restartedMain]  INFO o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2022-10-25 20:01:19.476 [restartedMain]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:18, serverValue:122}] to 192.168.1.9:37017
+2022-10-25 20:01:19.955 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6f34df36, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a3068dd, org.springframework.security.web.context.SecurityContextPersistenceFilter@6863fc76, org.springframework.security.web.header.HeaderWriterFilter@64bef35c, org.springframework.web.filter.CorsFilter@181dc201, org.springframework.security.web.authentication.logout.LogoutFilter@344b9213, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@18ac774a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dc61b60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ef12997, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@63f0f06f, org.springframework.security.web.session.SessionManagementFilter@68b2b05f, org.springframework.security.web.access.ExceptionTranslationFilter@41b08a10, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@651af0ba]
+2022-10-25 20:01:19.960 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:01:19.961 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/css/**']
+2022-10-25 20:01:19.961 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:01:19.961 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/js/**']
+2022-10-25 20:01:19.961 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:01:19.962 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/img/**']
+2022-10-25 20:01:19.962 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/lib/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:01:19.962 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/lib/**']
+2022-10-25 20:01:19.962 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:01:19.962 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/favicon.ico']
+2022-10-25 20:01:19.963 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:01:19.963 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/**', OPTIONS]
+2022-10-25 20:01:20.037 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8019 (http) with context path ''
+2022-10-25 20:01:20.048 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarted - Started Application in 1.092 seconds (JVM running for 1374.65)
+2022-10-25 20:01:20.054 [restartedMain]  INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2022-10-25 20:01:30.383 [http-nio-8019-exec-2]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-25 20:01:30.384 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2022-10-25 20:01:30.386 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+2022-10-25 20:01:30.692 [http-nio-8019-exec-2] DEBUG i.g.c.g.controllers.UtentiController.findAllUsers - --- Servizio Cerca Tutti gli Utenti ---
+2022-10-25 20:02:27.790 [http-nio-8019-exec-4] DEBUG i.g.c.g.controllers.UtentiController.createUser - --- Servizio Inserisci Utente --- 
+input userid: [Ghismo2]
+2022-10-25 20:02:27.791 [http-nio-8019-exec-4] DEBUG i.g.c.g.controllers.UtentiController.checkInputUtente - Utente: Utenti(id=null, userId=Ghismo2, password=banana2, attivo=Si, ruoli=[USER])
+2022-10-25 20:03:03.559 [http-nio-8019-exec-5] DEBUG i.g.c.g.controllers.UtentiController.findAllUsers - --- Servizio Cerca Tutti gli Utenti ---
+2022-10-25 20:03:11.925 [http-nio-8019-exec-6]  WARN i.g.c.g.security.AuthEntryPoint.commence - Errore di sicurezza: Full authentication is required to access this resource
+2022-10-25 20:05:43.324 [File Watcher]  INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-25 20:05:43.872 [Thread-23]  INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+2022-10-25 20:05:43.874 [Thread-23]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-25 20:05:44.288 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.yaml.snakeyaml.scanner.ScannerException: while scanning a simple key
+ in 'reader', line 18, column 3:
+      mvc
+      ^
+could not find expected ':'
+ in 'reader', line 20, column 16:
+          date-time: yyyy-MM-dd HH:mm:ss
+                   ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:505)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:320)
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:250)
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:628)
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:166)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:140)
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:119)
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:214)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:184)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:314)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:305)
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:286)
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:188)
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:115)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:135)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:514)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:198)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:107)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:128)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:86)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:116)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:240)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:227)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:102)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:94)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:102)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:87)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at it.ghismo.corso1.gestuser.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-10-25 20:05:49.829 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarting - Starting Application using Java 11.0.11 on PC-Giuseppe with PID 9708 (C:\GitLocalRepo\GestUser\target\classes started by ghism_000 in C:\GitLocalRepo\GestUser)
+2022-10-25 20:05:49.829 [restartedMain] DEBUG i.ghismo.corso1.gestuser.Application.logStarting - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-25 20:05:49.829 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-10-25 20:05:50.033 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-25 20:05:50.043 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 1 MongoDB repository interfaces.
+2022-10-25 20:05:50.151 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8019 (http)
+2022-10-25 20:05:50.152 [restartedMain]  INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2022-10-25 20:05:50.153 [restartedMain]  INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-25 20:05:50.170 [restartedMain]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2022-10-25 20:05:50.170 [restartedMain]  INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 338 ms
+2022-10-25 20:05:50.227 [restartedMain]  INFO org.mongodb.driver.client.info - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 8.1", "architecture": "amd64", "version": "6.3"}, "platform": "Java/Oracle Corporation/11.0.11+9-LTS-194"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='ghismo', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3cfa93a7]}, clusterSettings={hosts=[192.168.1.9:37017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-25 20:05:50.274 [restartedMain]  INFO o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2022-10-25 20:05:50.289 [restartedMain]  INFO org.mongodb.driver.cluster.info - Cluster description not yet available. Waiting for 30000 ms before timing out
+2022-10-25 20:05:50.669 [cluster-ClusterId{value='6358257e3007846be472c83b', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:20, serverValue:124}] to 192.168.1.9:37017
+2022-10-25 20:05:50.669 [cluster-rtt-ClusterId{value='6358257e3007846be472c83b', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:19, serverValue:123}] to 192.168.1.9:37017
+2022-10-25 20:05:50.674 [cluster-ClusterId{value='6358257e3007846be472c83b', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.9:37017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=10709954}
+2022-10-25 20:05:50.874 [restartedMain]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:21, serverValue:125}] to 192.168.1.9:37017
+2022-10-25 20:05:51.368 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4558c59b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b92220b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e597c62, org.springframework.security.web.header.HeaderWriterFilter@2a319b6, org.springframework.web.filter.CorsFilter@4b4d423a, org.springframework.security.web.authentication.logout.LogoutFilter@4b252cbb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3e1d4af9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@158a5440, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f7e91ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fd39328, org.springframework.security.web.session.SessionManagementFilter@67f0caa1, org.springframework.security.web.access.ExceptionTranslationFilter@46c7bdf4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58ad1843]
+2022-10-25 20:05:51.375 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:05:51.376 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/css/**']
+2022-10-25 20:05:51.376 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:05:51.377 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/js/**']
+2022-10-25 20:05:51.378 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:05:51.379 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/img/**']
+2022-10-25 20:05:51.380 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/lib/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:05:51.381 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/lib/**']
+2022-10-25 20:05:51.381 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:05:51.382 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/favicon.ico']
+2022-10-25 20:05:51.383 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:05:51.383 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/**', OPTIONS]
+2022-10-25 20:05:51.502 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8019 (http) with context path ''
+2022-10-25 20:05:51.523 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarted - Started Application in 1.757 seconds (JVM running for 1646.126)
+2022-10-25 20:05:51.534 [restartedMain]  INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2022-10-25 20:05:55.842 [http-nio-8019-exec-2]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-25 20:05:55.843 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2022-10-25 20:05:55.847 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 4 ms
+2022-10-25 20:05:55.853 [http-nio-8019-exec-2]  WARN i.g.c.g.security.AuthEntryPoint.commence - Errore di sicurezza: Full authentication is required to access this resource
+2022-10-25 20:05:58.059 [http-nio-8019-exec-3]  WARN i.g.c.g.security.AuthEntryPoint.commence - Errore di sicurezza: Full authentication is required to access this resource
+2022-10-25 20:06:54.558 [File Watcher]  INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-25 20:06:55.111 [Thread-27]  INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+2022-10-25 20:06:55.112 [Thread-27]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-25 20:06:55.265 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarting - Starting Application using Java 11.0.11 on PC-Giuseppe with PID 9708 (C:\GitLocalRepo\GestUser\target\classes started by ghism_000 in C:\GitLocalRepo\GestUser)
+2022-10-25 20:06:55.265 [restartedMain] DEBUG i.ghismo.corso1.gestuser.Application.logStarting - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-25 20:06:55.265 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-10-25 20:06:55.473 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-25 20:06:55.483 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 10 ms. Found 1 MongoDB repository interfaces.
+2022-10-25 20:06:55.618 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8019 (http)
+2022-10-25 20:06:55.619 [restartedMain]  INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2022-10-25 20:06:55.619 [restartedMain]  INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-25 20:06:55.635 [restartedMain]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2022-10-25 20:06:55.636 [restartedMain]  INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 367 ms
+2022-10-25 20:06:55.696 [restartedMain]  INFO org.mongodb.driver.client.info - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 8.1", "architecture": "amd64", "version": "6.3"}, "platform": "Java/Oracle Corporation/11.0.11+9-LTS-194"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='ghismo', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3cfa93a7]}, clusterSettings={hosts=[192.168.1.9:37017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-25 20:06:55.719 [cluster-ClusterId{value='635825bf3007846be472c83c', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:22, serverValue:127}] to 192.168.1.9:37017
+2022-10-25 20:06:55.718 [cluster-rtt-ClusterId{value='635825bf3007846be472c83c', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:23, serverValue:126}] to 192.168.1.9:37017
+2022-10-25 20:06:55.721 [cluster-ClusterId{value='635825bf3007846be472c83c', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.9:37017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=7342120}
+2022-10-25 20:06:55.747 [restartedMain]  INFO o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2022-10-25 20:06:55.830 [restartedMain]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:24, serverValue:128}] to 192.168.1.9:37017
+2022-10-25 20:06:56.523 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@29eeeb7c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@34214eb0, org.springframework.security.web.context.SecurityContextPersistenceFilter@7a2f7ea2, org.springframework.security.web.header.HeaderWriterFilter@26e60bf1, org.springframework.web.filter.CorsFilter@28189aae, org.springframework.security.web.authentication.logout.LogoutFilter@4d6c0966, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6b1b5f15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@68b1a8a2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e9e8fc6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@194a8b4f, org.springframework.security.web.session.SessionManagementFilter@a671f96, org.springframework.security.web.access.ExceptionTranslationFilter@30a44500, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@48da8ffd]
+2022-10-25 20:06:56.533 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:06:56.533 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/css/**']
+2022-10-25 20:06:56.534 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:06:56.534 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/js/**']
+2022-10-25 20:06:56.534 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:06:56.534 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/img/**']
+2022-10-25 20:06:56.534 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/lib/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:06:56.535 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/lib/**']
+2022-10-25 20:06:56.535 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:06:56.535 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/favicon.ico']
+2022-10-25 20:06:56.536 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:06:56.536 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/**', OPTIONS]
+2022-10-25 20:06:56.638 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8019 (http) with context path ''
+2022-10-25 20:06:56.654 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarted - Started Application in 1.447 seconds (JVM running for 1711.257)
+2022-10-25 20:06:56.662 [restartedMain]  INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2022-10-25 20:07:13.158 [File Watcher]  INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-25 20:07:13.691 [Thread-33]  INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+2022-10-25 20:07:13.954 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarting - Starting Application using Java 11.0.11 on PC-Giuseppe with PID 9708 (C:\GitLocalRepo\GestUser\target\classes started by ghism_000 in C:\GitLocalRepo\GestUser)
+2022-10-25 20:07:13.955 [restartedMain] DEBUG i.ghismo.corso1.gestuser.Application.logStarting - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-25 20:07:13.955 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-10-25 20:07:14.273 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-25 20:07:14.284 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 10 ms. Found 1 MongoDB repository interfaces.
+2022-10-25 20:07:14.405 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8019 (http)
+2022-10-25 20:07:14.406 [restartedMain]  INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2022-10-25 20:07:14.406 [restartedMain]  INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-25 20:07:14.422 [restartedMain]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2022-10-25 20:07:14.423 [restartedMain]  INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 463 ms
+2022-10-25 20:07:14.466 [restartedMain]  INFO org.mongodb.driver.client.info - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 8.1", "architecture": "amd64", "version": "6.3"}, "platform": "Java/Oracle Corporation/11.0.11+9-LTS-194"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='ghismo', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3cfa93a7]}, clusterSettings={hosts=[192.168.1.9:37017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-25 20:07:14.504 [restartedMain]  INFO o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2022-10-25 20:07:14.506 [cluster-ClusterId{value='635825d23007846be472c83d', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:26, serverValue:129}] to 192.168.1.9:37017
+2022-10-25 20:07:14.511 [cluster-ClusterId{value='635825d23007846be472c83d', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.9:37017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=9440378}
+2022-10-25 20:07:14.512 [cluster-rtt-ClusterId{value='635825d23007846be472c83d', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:25, serverValue:130}] to 192.168.1.9:37017
+2022-10-25 20:07:14.634 [restartedMain]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:27, serverValue:131}] to 192.168.1.9:37017
+2022-10-25 20:07:15.159 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2e154259, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4244d3d1, org.springframework.security.web.context.SecurityContextPersistenceFilter@702bdc09, org.springframework.security.web.header.HeaderWriterFilter@1e4b65f4, org.springframework.web.filter.CorsFilter@799dc5e4, org.springframework.security.web.authentication.logout.LogoutFilter@55546543, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@8ed48bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@30ba6961, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@751bde47, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bd7c2d8, org.springframework.security.web.session.SessionManagementFilter@6fec290d, org.springframework.security.web.access.ExceptionTranslationFilter@6ec5d287, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@28c27401]
+2022-10-25 20:07:15.167 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:15.167 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/css/**']
+2022-10-25 20:07:15.168 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:15.168 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/js/**']
+2022-10-25 20:07:15.168 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:15.168 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/img/**']
+2022-10-25 20:07:15.168 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/lib/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:15.168 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/lib/**']
+2022-10-25 20:07:15.169 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:15.169 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/favicon.ico']
+2022-10-25 20:07:15.169 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:15.169 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/**', OPTIONS]
+2022-10-25 20:07:15.272 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8019 (http) with context path ''
+2022-10-25 20:07:15.285 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarted - Started Application in 1.442 seconds (JVM running for 1729.887)
+2022-10-25 20:07:15.290 [restartedMain]  INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2022-10-25 20:07:19.845 [http-nio-8019-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-25 20:07:19.845 [http-nio-8019-exec-1]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2022-10-25 20:07:19.847 [http-nio-8019-exec-1]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+2022-10-25 20:07:19.853 [http-nio-8019-exec-1]  WARN i.g.c.g.security.AuthEntryPoint.commence - Errore di sicurezza: Full authentication is required to access this resource
+2022-10-25 20:07:22.403 [http-nio-8019-exec-4]  WARN i.g.c.g.security.AuthEntryPoint.commence - Errore di sicurezza: Full authentication is required to access this resource
+2022-10-25 20:07:44.942 [File Watcher]  INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-25 20:07:45.432 [Thread-37]  INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+2022-10-25 20:07:45.434 [Thread-37]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-25 20:07:45.560 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarting - Starting Application using Java 11.0.11 on PC-Giuseppe with PID 9708 (C:\GitLocalRepo\GestUser\target\classes started by ghism_000 in C:\GitLocalRepo\GestUser)
+2022-10-25 20:07:45.560 [restartedMain] DEBUG i.ghismo.corso1.gestuser.Application.logStarting - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-25 20:07:45.560 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-10-25 20:07:45.732 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-25 20:07:45.741 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 1 MongoDB repository interfaces.
+2022-10-25 20:07:45.843 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8019 (http)
+2022-10-25 20:07:45.843 [restartedMain]  INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2022-10-25 20:07:45.844 [restartedMain]  INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-25 20:07:45.857 [restartedMain]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2022-10-25 20:07:45.858 [restartedMain]  INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 295 ms
+2022-10-25 20:07:45.901 [restartedMain]  INFO org.mongodb.driver.client.info - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 8.1", "architecture": "amd64", "version": "6.3"}, "platform": "Java/Oracle Corporation/11.0.11+9-LTS-194"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='ghismo', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3cfa93a7]}, clusterSettings={hosts=[192.168.1.9:37017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-25 20:07:45.919 [cluster-rtt-ClusterId{value='635825f13007846be472c83e', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:29, serverValue:132}] to 192.168.1.9:37017
+2022-10-25 20:07:45.921 [cluster-ClusterId{value='635825f13007846be472c83e', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:28, serverValue:133}] to 192.168.1.9:37017
+2022-10-25 20:07:45.939 [restartedMain]  INFO o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2022-10-25 20:07:45.988 [cluster-ClusterId{value='635825f13007846be472c83e', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.9:37017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=5393355}
+2022-10-25 20:07:46.205 [restartedMain]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:30, serverValue:134}] to 192.168.1.9:37017
+2022-10-25 20:07:46.684 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3e18fbe0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a2b224d, org.springframework.security.web.context.SecurityContextPersistenceFilter@41924ece, org.springframework.security.web.header.HeaderWriterFilter@2da6eba0, org.springframework.web.filter.CorsFilter@64da4c4c, org.springframework.security.web.authentication.logout.LogoutFilter@2efaf7f5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4ca7fa33, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@bf9afea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1118aede, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@175f4486, org.springframework.security.web.session.SessionManagementFilter@78828776, org.springframework.security.web.access.ExceptionTranslationFilter@5763b85e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c9e5226]
+2022-10-25 20:07:46.690 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:46.691 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/css/**']
+2022-10-25 20:07:46.691 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:46.691 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/js/**']
+2022-10-25 20:07:46.691 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:46.691 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/img/**']
+2022-10-25 20:07:46.691 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/lib/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:46.692 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/lib/**']
+2022-10-25 20:07:46.692 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:46.692 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/favicon.ico']
+2022-10-25 20:07:46.692 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:07:46.693 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/**', OPTIONS]
+2022-10-25 20:07:46.770 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8019 (http) with context path ''
+2022-10-25 20:07:46.780 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarted - Started Application in 1.264 seconds (JVM running for 1761.382)
+2022-10-25 20:07:46.838 [restartedMain]  INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2022-10-25 20:07:49.669 [http-nio-8019-exec-2]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-25 20:07:49.670 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2022-10-25 20:07:49.671 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+2022-10-25 20:07:49.676 [http-nio-8019-exec-2]  WARN i.g.c.g.security.AuthEntryPoint.commence - Errore di sicurezza: Full authentication is required to access this resource
+2022-10-25 20:08:41.229 [File Watcher]  INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-25 20:08:41.850 [Thread-41]  INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+2022-10-25 20:08:41.852 [Thread-41]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-25 20:08:41.981 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarting - Starting Application using Java 11.0.11 on PC-Giuseppe with PID 9708 (C:\GitLocalRepo\GestUser\target\classes started by ghism_000 in C:\GitLocalRepo\GestUser)
+2022-10-25 20:08:41.982 [restartedMain] DEBUG i.ghismo.corso1.gestuser.Application.logStarting - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-25 20:08:41.982 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-10-25 20:08:42.160 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-25 20:08:42.171 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 9 ms. Found 1 MongoDB repository interfaces.
+2022-10-25 20:08:42.283 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8019 (http)
+2022-10-25 20:08:42.284 [restartedMain]  INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2022-10-25 20:08:42.285 [restartedMain]  INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-25 20:08:42.297 [restartedMain]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2022-10-25 20:08:42.298 [restartedMain]  INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 313 ms
+2022-10-25 20:08:42.342 [restartedMain]  INFO org.mongodb.driver.client.info - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 8.1", "architecture": "amd64", "version": "6.3"}, "platform": "Java/Oracle Corporation/11.0.11+9-LTS-194"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='ghismo', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3cfa93a7]}, clusterSettings={hosts=[192.168.1.9:37017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-25 20:08:42.360 [cluster-ClusterId{value='6358262a3007846be472c83f', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:31, serverValue:135}] to 192.168.1.9:37017
+2022-10-25 20:08:42.363 [cluster-rtt-ClusterId{value='6358262a3007846be472c83f', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:32, serverValue:136}] to 192.168.1.9:37017
+2022-10-25 20:08:42.364 [cluster-ClusterId{value='6358262a3007846be472c83f', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.9:37017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=5471001}
+2022-10-25 20:08:42.382 [restartedMain]  INFO o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2022-10-25 20:08:42.469 [restartedMain]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:33, serverValue:137}] to 192.168.1.9:37017
+2022-10-25 20:08:42.961 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@8a0bcd3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1eff063d, org.springframework.security.web.context.SecurityContextPersistenceFilter@12a273a6, org.springframework.security.web.header.HeaderWriterFilter@21efa35d, org.springframework.web.filter.CorsFilter@15aa92af, org.springframework.security.web.authentication.logout.LogoutFilter@4a933902, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@9d42436, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@202460c6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c8ddad4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3df7f1b8, org.springframework.security.web.session.SessionManagementFilter@3d2156c9, org.springframework.security.web.access.ExceptionTranslationFilter@73d82d91, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c16f914]
+2022-10-25 20:08:42.968 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:08:42.968 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/css/**']
+2022-10-25 20:08:42.969 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:08:42.969 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/js/**']
+2022-10-25 20:08:42.969 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:08:42.969 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/img/**']
+2022-10-25 20:08:42.969 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/lib/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:08:42.970 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/lib/**']
+2022-10-25 20:08:42.970 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:08:42.970 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/favicon.ico']
+2022-10-25 20:08:42.970 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:08:42.970 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/**', OPTIONS]
+2022-10-25 20:08:43.054 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8019 (http) with context path ''
+2022-10-25 20:08:43.077 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarted - Started Application in 1.136 seconds (JVM running for 1817.679)
+2022-10-25 20:08:43.080 [restartedMain]  INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2022-10-25 20:08:48.605 [http-nio-8019-exec-1]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-25 20:08:48.606 [http-nio-8019-exec-1]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2022-10-25 20:08:48.608 [http-nio-8019-exec-1]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 2 ms
+2022-10-25 20:08:48.613 [http-nio-8019-exec-1]  WARN i.g.c.g.security.AuthEntryPoint.commence - Errore di sicurezza: Full authentication is required to access this resource
+2022-10-25 20:11:08.077 [File Watcher]  INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-25 20:11:08.605 [Thread-45]  INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+2022-10-25 20:11:08.607 [Thread-45]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-25 20:11:08.712 [restartedMain] ERROR o.s.boot.SpringApplication.reportFailure - Application run failed
+org.yaml.snakeyaml.constructor.DuplicateKeyException: while constructing a mapping
+ in 'reader', line 15, column 3:
+      application:
+      ^
+found duplicate key jackson
+ in 'reader', line 21, column 3:
+      jackson:
+      ^
+
+	at org.yaml.snakeyaml.constructor.SafeConstructor.processDuplicateKeys(SafeConstructor.java:105)
+	at org.yaml.snakeyaml.constructor.SafeConstructor.flattenMapping(SafeConstructor.java:76)
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:189)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:461)
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:556)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:230)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:220)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.constructObject(OriginTrackedYamlLoader.java:119)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping2ndStep(BaseConstructor.java:480)
+	at org.yaml.snakeyaml.constructor.SafeConstructor.constructMapping2ndStep(SafeConstructor.java:190)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructMapping(BaseConstructor.java:461)
+	at org.yaml.snakeyaml.constructor.SafeConstructor$ConstructYamlMap.construct(SafeConstructor.java:556)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:230)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:220)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.constructObject(OriginTrackedYamlLoader.java:119)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructDocument(BaseConstructor.java:174)
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getData(BaseConstructor.java:139)
+	at org.springframework.boot.env.OriginTrackedYamlLoader$OriginTrackingConstructor.getData(OriginTrackedYamlLoader.java:99)
+	at org.yaml.snakeyaml.Yaml$1.next(Yaml.java:514)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:198)
+	at org.springframework.beans.factory.config.YamlProcessor.process(YamlProcessor.java:166)
+	at org.springframework.boot.env.OriginTrackedYamlLoader.load(OriginTrackedYamlLoader.java:84)
+	at org.springframework.boot.env.YamlPropertySourceLoader.load(YamlPropertySourceLoader.java:50)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:54)
+	at org.springframework.boot.context.config.StandardConfigDataLoader.load(StandardConfigDataLoader.java:36)
+	at org.springframework.boot.context.config.ConfigDataLoaders.load(ConfigDataLoaders.java:107)
+	at org.springframework.boot.context.config.ConfigDataImporter.load(ConfigDataImporter.java:128)
+	at org.springframework.boot.context.config.ConfigDataImporter.resolveAndLoad(ConfigDataImporter.java:86)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentContributors.withProcessedImports(ConfigDataEnvironmentContributors.java:116)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processInitial(ConfigDataEnvironment.java:240)
+	at org.springframework.boot.context.config.ConfigDataEnvironment.processAndApply(ConfigDataEnvironment.java:227)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:102)
+	at org.springframework.boot.context.config.ConfigDataEnvironmentPostProcessor.postProcessEnvironment(ConfigDataEnvironmentPostProcessor.java:94)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEnvironmentPreparedEvent(EnvironmentPostProcessorApplicationListener.java:102)
+	at org.springframework.boot.env.EnvironmentPostProcessorApplicationListener.onApplicationEvent(EnvironmentPostProcessorApplicationListener.java:87)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:85)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:120)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:114)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:65)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at it.ghismo.corso1.gestuser.Application.main(Application.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2022-10-25 20:11:21.341 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarting - Starting Application using Java 11.0.11 on PC-Giuseppe with PID 9708 (C:\GitLocalRepo\GestUser\target\classes started by ghism_000 in C:\GitLocalRepo\GestUser)
+2022-10-25 20:11:21.341 [restartedMain] DEBUG i.ghismo.corso1.gestuser.Application.logStarting - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-25 20:11:21.341 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-10-25 20:11:21.541 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-25 20:11:21.552 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 10 ms. Found 1 MongoDB repository interfaces.
+2022-10-25 20:11:21.694 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8019 (http)
+2022-10-25 20:11:21.695 [restartedMain]  INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2022-10-25 20:11:21.696 [restartedMain]  INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-25 20:11:21.716 [restartedMain]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2022-10-25 20:11:21.716 [restartedMain]  INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 371 ms
+2022-10-25 20:11:21.760 [restartedMain]  INFO org.mongodb.driver.client.info - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 8.1", "architecture": "amd64", "version": "6.3"}, "platform": "Java/Oracle Corporation/11.0.11+9-LTS-194"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='ghismo', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3cfa93a7]}, clusterSettings={hosts=[192.168.1.9:37017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-25 20:11:21.779 [cluster-ClusterId{value='635826c93007846be472c840', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:35, serverValue:138}] to 192.168.1.9:37017
+2022-10-25 20:11:21.780 [cluster-rtt-ClusterId{value='635826c93007846be472c840', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:34, serverValue:139}] to 192.168.1.9:37017
+2022-10-25 20:11:21.783 [cluster-ClusterId{value='635826c93007846be472c840', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.9:37017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=8210519}
+2022-10-25 20:11:21.802 [restartedMain]  INFO o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2022-10-25 20:11:21.890 [restartedMain]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:36, serverValue:140}] to 192.168.1.9:37017
+2022-10-25 20:11:22.381 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e30b7b5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77514283, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c6c1e6c, org.springframework.security.web.header.HeaderWriterFilter@742e9ccb, org.springframework.web.filter.CorsFilter@5848f886, org.springframework.security.web.authentication.logout.LogoutFilter@218a8132, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6af20ea3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@158bd714, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@15c3c9aa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@22b5623a, org.springframework.security.web.session.SessionManagementFilter@d54b6dd, org.springframework.security.web.access.ExceptionTranslationFilter@300b30ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2061fafd]
+2022-10-25 20:11:22.389 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:11:22.390 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/css/**']
+2022-10-25 20:11:22.391 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:11:22.391 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/js/**']
+2022-10-25 20:11:22.391 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:11:22.392 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/img/**']
+2022-10-25 20:11:22.392 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/lib/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:11:22.393 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/lib/**']
+2022-10-25 20:11:22.393 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:11:22.393 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/favicon.ico']
+2022-10-25 20:11:22.394 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:11:22.394 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/**', OPTIONS]
+2022-10-25 20:11:22.487 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8019 (http) with context path ''
+2022-10-25 20:11:22.503 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarted - Started Application in 1.249 seconds (JVM running for 1977.105)
+2022-10-25 20:11:22.506 [restartedMain]  INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2022-10-25 20:11:27.843 [http-nio-8019-exec-2]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-10-25 20:11:27.844 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Initializing Servlet 'dispatcherServlet'
+2022-10-25 20:11:27.845 [http-nio-8019-exec-2]  INFO o.s.web.servlet.DispatcherServlet.initServletBean - Completed initialization in 1 ms
+2022-10-25 20:11:27.849 [http-nio-8019-exec-2]  WARN i.g.c.g.security.AuthEntryPoint.commence - Errore di sicurezza: Full authentication is required to access this resource
+2022-10-25 20:11:40.027 [http-nio-8019-exec-3] DEBUG i.g.c.g.controllers.UtentiController.findAllUsers - --- Servizio Cerca Tutti gli Utenti ---
+2022-10-25 20:13:15.448 [http-nio-8019-exec-6] DEBUG i.g.c.g.controllers.UtentiController.createUser - --- Servizio Inserisci Utente --- 
+input userid: [Ghismo]
+2022-10-25 20:13:15.448 [http-nio-8019-exec-6] DEBUG i.g.c.g.controllers.UtentiController.checkInputUtente - Utente: Utenti(id=null, userId=Ghismo, password=banana, attivo=No, ruoli=[USER])
+2022-10-25 20:13:15.676 [http-nio-8019-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet].log - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: Write operation error on server 192.168.1.9:37017. Write error: WriteError{code=11000, message='E11000 duplicate key error index: ms-users.utenti.$userId dup key: { : "Ghismo" }', details={}}.; nested exception is com.mongodb.MongoWriteException: Write operation error on server 192.168.1.9:37017. Write error: WriteError{code=11000, message='E11000 duplicate key error index: ms-users.utenti.$userId dup key: { : "Ghismo" }', details={}}.] with root cause
+com.mongodb.MongoWriteException: Write operation error on server 192.168.1.9:37017. Write error: WriteError{code=11000, message='E11000 duplicate key error index: ms-users.utenti.$userId dup key: { : "Ghismo" }', details={}}.
+	at com.mongodb.client.internal.MongoCollectionImpl.executeSingleWriteRequest(MongoCollectionImpl.java:1018)
+	at com.mongodb.client.internal.MongoCollectionImpl.executeInsertOne(MongoCollectionImpl.java:471)
+	at com.mongodb.client.internal.MongoCollectionImpl.insertOne(MongoCollectionImpl.java:454)
+	at com.mongodb.client.internal.MongoCollectionImpl.insertOne(MongoCollectionImpl.java:448)
+	at org.springframework.data.mongodb.core.MongoTemplate.lambda$insertDocument$15(MongoTemplate.java:1552)
+	at org.springframework.data.mongodb.core.MongoTemplate.execute(MongoTemplate.java:598)
+	at org.springframework.data.mongodb.core.MongoTemplate.insertDocument(MongoTemplate.java:1546)
+	at org.springframework.data.mongodb.core.MongoTemplate.doInsert(MongoTemplate.java:1345)
+	at org.springframework.data.mongodb.core.MongoTemplate.insert(MongoTemplate.java:1260)
+	at org.springframework.data.mongodb.repository.support.SimpleMongoRepository.save(SimpleMongoRepository.java:95)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121)
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:530)
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:286)
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:640)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215)
+	at com.sun.proxy.$Proxy142.save(Unknown Source)
+	at it.ghismo.corso1.gestuser.services.UtentiServiceImpl.addUtente(UtentiServiceImpl.java:25)
+	at it.ghismo.corso1.gestuser.controllers.UtentiController.createUser(UtentiController.java:70)
+	at it.ghismo.corso1.gestuser.controllers.UtentiController$$FastClassBySpringCGLIB$$e13e8573.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.validation.beanvalidation.MethodValidationInterceptor.invoke(MethodValidationInterceptor.java:123)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at it.ghismo.corso1.gestuser.controllers.UtentiController$$EnhancerBySpringCGLIB$$e833abbe.createUser(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:198)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022-10-25 20:45:12.388 [File Watcher]  INFO o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-10-25 20:45:13.004 [Thread-49]  INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]
+2022-10-25 20:45:13.006 [Thread-49]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-10-25 20:45:13.443 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarting - Starting Application using Java 11.0.11 on PC-Giuseppe with PID 9708 (C:\GitLocalRepo\GestUser\target\classes started by ghism_000 in C:\GitLocalRepo\GestUser)
+2022-10-25 20:45:13.444 [restartedMain] DEBUG i.ghismo.corso1.gestuser.Application.logStarting - Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-25 20:45:13.444 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2022-10-25 20:45:13.913 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2022-10-25 20:45:13.922 [restartedMain]  INFO o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 8 ms. Found 1 MongoDB repository interfaces.
+2022-10-25 20:45:14.027 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8019 (http)
+2022-10-25 20:45:14.028 [restartedMain]  INFO o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+2022-10-25 20:45:14.028 [restartedMain]  INFO o.a.catalina.core.StandardEngine.log - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-10-25 20:45:14.042 [restartedMain]  INFO o.a.c.c.C.[Tomcat].[localhost].[/].log - Initializing Spring embedded WebApplicationContext
+2022-10-25 20:45:14.042 [restartedMain]  INFO o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 592 ms
+2022-10-25 20:45:14.082 [restartedMain]  INFO org.mongodb.driver.client.info - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.6.1"}, "os": {"type": "Windows", "name": "Windows 8.1", "architecture": "amd64", "version": "6.3"}, "platform": "Java/Oracle Corporation/11.0.11+9-LTS-194"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='ghismo', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@3cfa93a7]}, clusterSettings={hosts=[192.168.1.9:37017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2022-10-25 20:45:14.102 [cluster-ClusterId{value='63582eba3007846be472c842', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:38, serverValue:144}] to 192.168.1.9:37017
+2022-10-25 20:45:14.124 [cluster-rtt-ClusterId{value='63582eba3007846be472c842', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:37, serverValue:143}] to 192.168.1.9:37017
+2022-10-25 20:45:14.239 [cluster-ClusterId{value='63582eba3007846be472c842', description='null'}-192.168.1.9:37017]  INFO org.mongodb.driver.cluster.info - Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.9:37017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=3, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=6490679}
+2022-10-25 20:45:14.267 [restartedMain]  INFO o.s.b.d.a.OptionalLiveReloadServer.startServer - LiveReload server is running on port 35729
+2022-10-25 20:45:14.356 [restartedMain]  INFO org.mongodb.driver.connection.info - Opened connection [connectionId{localValue:39, serverValue:145}] to 192.168.1.9:37017
+2022-10-25 20:45:14.886 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@246b9c89, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ecd1a22, org.springframework.security.web.context.SecurityContextPersistenceFilter@44aeb9da, org.springframework.security.web.header.HeaderWriterFilter@187ddd24, org.springframework.web.filter.CorsFilter@1def05d1, org.springframework.security.web.authentication.logout.LogoutFilter@7c2e84c1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@71723e57, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45b8fb73, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@335a9a1d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7d8f10bd, org.springframework.security.web.session.SessionManagementFilter@7e401378, org.springframework.security.web.access.ExceptionTranslationFilter@63bc5561, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@138e09fb]
+2022-10-25 20:45:14.899 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/css/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:45:14.900 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/css/**']
+2022-10-25 20:45:14.900 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/js/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:45:14.901 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/js/**']
+2022-10-25 20:45:14.901 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/img/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:45:14.901 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/img/**']
+2022-10-25 20:45:14.901 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/lib/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:45:14.901 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/lib/**']
+2022-10-25 20:45:14.901 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/favicon.ico']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:45:14.901 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/favicon.ico']
+2022-10-25 20:45:14.902 [restartedMain]  WARN o.s.s.c.a.web.builders.WebSecurity.performBuild - You are asking Spring Security to ignore Ant [pattern='/**', OPTIONS]. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2022-10-25 20:45:14.902 [restartedMain]  INFO o.s.s.web.DefaultSecurityFilterChain.<init> - Will not secure Ant [pattern='/**', OPTIONS]
+2022-10-25 20:45:15.035 [restartedMain]  INFO o.s.b.w.e.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8019 (http) with context path ''
+2022-10-25 20:45:15.042 [restartedMain]  INFO i.ghismo.corso1.gestuser.Application.logStarted - Started Application in 1.847 seconds (JVM running for 4009.644)
+2022-10-25 20:45:15.043 [restartedMain]  INFO o.s.b.d.a.ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2022-10-25 20:45:49.776 [RMI TCP Connection(114)-127.0.0.1]  INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown - Application shutdown requested.
+2022-10-25 20:45:50.264 [RMI TCP Connection(114)-127.0.0.1]  INFO o.a.catalina.core.StandardService.log - Stopping service [Tomcat]

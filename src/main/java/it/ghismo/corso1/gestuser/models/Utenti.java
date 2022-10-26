@@ -1,4 +1,4 @@
-package com.xantrix.webapp.models;
+package it.ghismo.corso1.gestuser.models;
 
 import java.util.List;
 
@@ -23,7 +23,7 @@ public class Utenti
 	@NotNull(message = "{NotNull.Articoli.userId.Validation}")
 	private String userId;
 	
-	@Size(min = 8, max = 80, message = "{Size.Utenti.password.Validation}")
+	@Size(min = 6, max = 80, message = "{Size.Utenti.password.Validation}")
 	private String password;
 	
 	private String attivo = "Si";
