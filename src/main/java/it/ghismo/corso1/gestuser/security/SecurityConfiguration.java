@@ -42,7 +42,8 @@ public class SecurityConfiguration /*extends WebSecurityConfigurerAdapter*/ {
 	@Bean
 	public UserDetailsService userDetailsService(BCryptPasswordEncoder bCryptPasswordEncoder) {
 		InMemoryUserDetailsManager manager = new InMemoryUserDetailsManager();
-		manager.createUser(buildUser(bCryptPasswordEncoder, "Ghismo", "banana", "USER"));
+		manager.createUser(buildUser(bCryptPasswordEncoder, "UserRead", "read$", "USER"));
+		//manager.createUser(buildUser(bCryptPasswordEncoder, "Ghismo", "banana", "USER"));
 		manager.createUser(buildUser(bCryptPasswordEncoder, "Admin", "megabanana", "ADMIN", "USER"));
 		return manager;
 	}
