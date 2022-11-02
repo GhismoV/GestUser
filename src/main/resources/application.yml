@@ -29,6 +29,7 @@ spring:
     mongodb:
       #host: localhost
       host: 192.168.1.9
+      #host: fghm.homepc.it
       port: 37017
       authentication-database: admin
       database: ms-users
